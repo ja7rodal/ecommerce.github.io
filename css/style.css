@@ -3,6 +3,10 @@ body {
 }
 
 
-.gris{
-  background-color: gray;
+.camisetas{
+  margin-top: 40px;
+}
+
+.camisetas div {
+  margin-top: 40px;
 }
