@@ -9,3 +9,18 @@ body {
 .carrusel{
   margin-bottom: 4%;
 }
+
+.categoria{
+  padding: 3% 6%;
+  margin-right: 15px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 900;
+}
+
+.deportiva{
+    background-color: grey;
+}
+.hipster{
+    background-color: orange;
+}

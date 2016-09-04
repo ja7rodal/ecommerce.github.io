@@ -114,7 +114,7 @@
               <button type="button" name="button" class="btn btn-primary">$200
                 <span class="glyphicon glyphicon-shopping-cart"></span>
               </button>
-              <button type="button" name="button" class="btn btn-default">Detalles</button>
+              <button type="button" name="button" class="btn btn-default" data-toggle="modal" data-target="#Modal">Detalles</button>
             </div>
           </div>
           <div class="col-xs-6 col-sm-4 col-md-4 espacio">
@@ -164,10 +164,52 @@
         </div>
       </div>
     </div>
+    <div class="modal fade" tabindex="-1" role="dialog" id="Modal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title">Hipster Ultimate</h3>
+          </div>
+          <div class="modal-body">
+            <div class="alert alert-info" role="alert"><span class="glyphicon glyphicon-info-sign"></span>
+              Este producto está gotado</div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="col-md-12 panel panel-default">
+                    <img src="img/camiseta-1.jpg" alt="camiseta1" class="img-responsive">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="col-md-12">
+                    <p>Precio: <strong>$200</strong> </p>
+                    <p>Calificación:
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star-empty"></span>
+                    </p>
+                    <p><span class="categoria hipster">Hipster</span><span class="categoria deportiva">Deportiva</span></p>
+                    <p class="text-primary">
+                        <span class="glyphicon glyphicon-heart"></span>
+                        Agregar a lista de deseos
+                    </p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
 
 
+      </div><!-- /.container -->
 
-  </div><!-- /.container -->
-
-</body>
-</html>
+    </body>
+    </html>
