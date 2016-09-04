@@ -2,11 +2,10 @@ body {
   padding-top: 70px;
 }
 
-
-.camisetas{
-  margin-top: 40px;
+.productos {
+  padding: 1% 3% 8% 5%;
 }
 
-.camisetas div {
-  margin-top: 40px;
+.carrusel{
+  margin-bottom: 4%;
 }
