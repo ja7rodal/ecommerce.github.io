@@ -24,3 +24,7 @@ body {
 .hipster{
     background-color: orange;
 }
+.desc{
+  padding: 2%;
+  text-align: justify;
+}
